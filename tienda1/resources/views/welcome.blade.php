@@ -70,7 +70,7 @@
                     <a class="nav-link" href="#"><i class="fas fa-shopping-cart"></i> COMPRAR</a> <!-- Icono de carrito -->
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#"><i class="fas fa-envelope"></i> CONTACTANOS</a> <!-- Icono de sobre -->
+                    <a class="nav-link" href="http://tienda1.test/contactanos"><i class="fas fa-envelope"></i> CONTACTANOS</a> <!-- Icono de sobre -->
                 </li>
                 <li class="nav-item dropdown">
                     <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">

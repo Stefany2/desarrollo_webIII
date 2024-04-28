@@ -2,7 +2,7 @@
 <html lang="es">
 <head>
     <meta charset="UTF-8">
-    <title>Tienda Online - Inicio</title>
+    <title> Inicio</title>
     <!-- Importar fuente Cascadia Code desde Google Fonts -->
     <link href="https://fonts.googleapis.com/css2?family=Cascadia+Code:wght@600&display=swap" rel="stylesheet">
     <!-- Bootstrap CSS -->
