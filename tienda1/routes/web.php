@@ -16,3 +16,8 @@ Route::get('/inicio', function () {
 Route::get('/contactanos', function () {
     return view('contactanos');
 })->name('contactanos');
+
+// Ruta de productos
+Route::get('/productos', function () {
+    return view('productos');
+})->name('productos');

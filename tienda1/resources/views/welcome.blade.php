@@ -67,7 +67,7 @@
                     <a class="nav-link" href="http://tienda1.test/inicio"><i class="fas fa-home"></i> INICIO</a> <!-- Icono de casa -->
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#"><i class="fas fa-shopping-cart"></i> COMPRAR</a> <!-- Icono de carrito -->
+                    <a class="nav-link" href="http://tienda1.test/productos"><i class="fas fa-shopping-cart"></i> COMPRAR</a> <!-- Icono de carrito -->
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="http://tienda1.test/contactanos"><i class="fas fa-envelope"></i> CONTACTANOS</a> <!-- Icono de sobre -->
