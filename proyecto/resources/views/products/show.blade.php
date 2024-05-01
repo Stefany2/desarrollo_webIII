@@ -5,9 +5,12 @@
 <p>{{ $product->description }}</p>
 <p>{{ $product->price }} USD</p>
 
-<form action="{{ route('cart.add', $product->id) }}" method="post">
+<form action="{{ route('cart.add') }}" method="POST">
     @csrf
-    <input type="number" name="quantity" min="1" value="1">
-    <button type="submit">Agregar al carrito</button>
+    <input type="hidden" name="product_id" value="{{ $product->id }}">
+    <button type="submit" class="btn btn-primary">
+        Agregar al carrito
+    </button>
 </form>
+
 @endsection

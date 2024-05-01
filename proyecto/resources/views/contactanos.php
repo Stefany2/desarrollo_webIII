@@ -78,7 +78,7 @@
         </a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="http://tienda1.test/">
+        <a class="nav-link" href="http://localhost/proyecto/public/Bienvenido">
           <i class="fas fa-sign-out-alt"></i> Salir
         </a>
       </li>

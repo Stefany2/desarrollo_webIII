@@ -3,40 +3,40 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
-use App\Models\Cart; // Importar el modelo Cart
-use App\Models\Product; // Importar el modelo Product
+use App\Models\Cart;
+use App\Models\Product;
 
 class CartController extends Controller
 {
     public function add(Request $request, Product $product) {
-        // Verificar si el producto ya está en el carrito
         $existingCart = Cart::where('product_id', $product->id)->first();
-
+    
         if ($existingCart) {
-            // Si ya existe, incrementa la cantidad
             $existingCart->quantity += $request->input('quantity', 1);
             $existingCart->save();
         } else {
-            // Si no, crea un nuevo registro en el carrito
             $cart = new Cart();
             $cart->product_id = $product->id;
             $cart->quantity = $request->input('quantity', 1);
             $cart->save();
         }
-
-        return redirect()->route('cart.show');
+    
+        return redirect()->route('cart.show'); // Redirigir para mostrar el carrito
     }
     
     public function remove(Cart $cart) {
-        // Eliminar el elemento del carrito
-        $cart->delete();
-        return redirect()->route('cart.show');
+        $cart->delete(); // Eliminar el elemento del carrito
+        return redirect()->route('cart.show'); // Redirigir después de eliminar
     }
     
     public function show() {
-        // Obtener todos los elementos del carrito con la relación de productos
-        $cartItems = Cart::with('product')->get();
-        return view('cart.show', compact('cartItems'));
+        $cartItems = Cart::with('product')->get(); // Obtener todos los elementos del carrito con la relación de productos
+    
+        $totalPrice = $cartItems->sum(fn($item) => $item->product->price * $item->quantity); // Calcular el precio total del carrito
+    
+        return view('cart.show', compact('cartItems', 'totalPrice')); // Pasar el precio total a la vista
     }
+    
 }
+
 
