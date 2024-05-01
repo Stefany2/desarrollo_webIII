@@ -1,7 +1,7 @@
 {{-- resources/views/cart/show.blade.php --}}
-@extends('layouts.app') <!-- Extender desde el layout principal -->
+@extends('layouts.app')
 
-@section('content') <!-- Sección donde va el contenido principal -->
+@section('content')
 <div class="container">
     <h1>Carrito de Compras</h1>
 
@@ -25,14 +25,11 @@
             @endforeach
         </ul>
 
-        <p>Precio total del carrito: $
-            {{ array_sum(
-                array_map(
-                    fn($item) => $item['quantity'] * $item['product']->price,
-                    $cartItems->toArray()
-                )
-            ) }}
-        </p>
+        <!-- Mostrar el precio total del carrito -->
+        <p>Precio total a pagar: ${{ $totalPrice }}</p> <!-- Mostrar el precio total al final -->
+
+        <!-- Botón para añadir otros productos -->
+        <a href="{{ route('products.index') }}" class="btn btn-primary">Añadir otros productos</a> <!-- Enlace para añadir otros productos -->
     @endif
 </div>
 @endsection
