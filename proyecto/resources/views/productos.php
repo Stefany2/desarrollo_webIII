@@ -70,7 +70,12 @@
 
 <!-- Menú de navegación -->
 <nav class="navbar navbar-expand-lg navbar-dark">
-  <a class="navbar-brand" href="#">PRODUCTOS TECNOLÓGICOS</a>
+  <a class="navbar-brand" href="#">PRODUCTOS TECNOLOGICOS</a>
+  <div class="ml-auto"> <!-- Se coloca el icono a la derecha -->
+    <a href="http://localhost/proyecto/public/Bienvenido" title="Cerrar sesión"> <!-- Cambiar href por la ruta correcta -->
+      <i class="fas fa-sign-out-alt"></i> <!-- Icono de salida -->
+    </a>
+  </div>
 </nav>
 
 <!-- Contenedor para productos -->
@@ -140,9 +145,9 @@
     <!-- Producto 7 -->
     <div class="col-md-4">
       <div class="product-card">
-        <img src="https://via.placeholder.com/300x200" class="product-image" alt="Producto 7"> <!-- Imagen -->
-        <h3 class="product-title">Producto 7</h3>
-        <p class="product-price">$79.99</p>
+        <img src="https://home.ripley.cl/store/Attachment/WOP/D171/2000360024898/2000360024898_2.jpg" class="product-image" alt="Producto 7"> <!-- Imagen -->
+        <h3 class="product-title">LED SONY 32" KLD-32W605d HD smart TV,Motionflow XR 240,Wi-Fi incorporada,X-Reality PRO.</h3>
+        <p class="product-price">S/ 1.449</p>
         <i class="fas fa-shopping-cart add-to-cart"></i> <!-- Ícono de carrito -->
       </div>
     </div>
@@ -150,8 +155,9 @@
     <!-- Producto 8 -->
     <div class="col-md-4">
       <div class="product-card">
-        <img src="https://via.placeholder.com/300x200" class="product-image" alt="Producto 8"> <!-- Imagen -->
-        <p class="product-price">$89.99</p>
+        <img src="https://smarthomesv.com/cdn/shop/products/B09B8V1LZ3_1_1200x1200.jpg?v=1671464063" class="product-image" alt="Producto 8"> <!-- Imagen -->
+        <h3 class="product-title">ALEXA ECHO DOT 5 GEN,Asistente de voz smart.</h3>
+        <p class="product-price">S/ 599</p>
         <i class="fas fa-shopping-cart add-to-cart"></i> <!-- Ícono de carrito -->
       </div>
     </div>
@@ -159,9 +165,9 @@
     <!-- Producto 9 -->
     <div class="col-md-4">
       <div class="product-card">
-        <img src="https://via.placeholder.com/300x200" class="product-image" alt="Producto 9"> <!-- Imagen -->
-        <h3 class="product-title">Producto 9</h3>
-        <p class="product-price">$99.99</p>
+        <img src="https://maptechperu.com/wp-content/uploads/2023/10/6b9e1024-7506-4e31-8550-2ebb8abeca7b-1.jpeg" class="product-image" alt="Producto 9"> <!-- Imagen -->
+        <h3 class="product-title">TAPO C225,Smart,LED invisible IR de 940 nm.</h3>
+        <p class="product-price">S/ 349</p>
         <i class="fas fa-shopping-cart add-to-cart"></i> <!-- Ícono de carrito -->
       </div>
     </div>
@@ -169,9 +175,9 @@
     <!-- Producto 10 -->
     <div class="col-md-4">
       <div class="product-card">
-        <img src="https://via.placeholder.com/300x200" class="product-image" alt="Producto 10"> <!-- Imagen -->
-        <h3 class="product-title">Producto 10</h3>
-        <p class="product-price">$109.99</p>
+        <img src="https://falabella.scene7.com/is/image/FalabellaPE/gsc_121805228_3190949_1?wid=800&hei=800&qlt=70" class="product-image" alt="Producto 10"> <!-- Imagen -->
+        <h3 class="product-title">Xiaomi Mi TV Box S 4K 2nd Gen,Android Tv,Dolby Audio,google</h3>
+        <p class="product-price">S/ 298</p>
         <i class="fas fa-shopping-cart add-to-cart"></i> <!-- Ícono de carrito -->
       </div>
     </div>
@@ -179,9 +185,9 @@
     <!-- Producto 11 -->
     <div class="col-md-4">
       <div class="product-card">
-        <img src="https://via.placeholder.com/300x200" class="product-image" alt="Producto 11"> <!-- Imagen -->
-        <h3 class="product-title">Producto 11</h3>
-        <p class="product-price">$119.99</p>
+        <img src="https://i.ebayimg.com/images/g/bc8AAOSwdy1dm1YJ/s-l500.png" class="product-image" alt="Producto 11"> <!-- Imagen -->
+        <h3 class="product-title">robot aspirador cecotec conga 1090,6 modos limpieza.</h3>
+        <p class="product-price">S/1.299</p>
         <i class="fas fa-shopping-cart add-to-cart"></i> <!-- Ícono de carrito -->
       </div>
     </div>
@@ -189,9 +195,9 @@
     <!-- Producto 12 -->
     <div class="col-md-4">
       <div class="product-card">
-        <img src="https://via.placeholder.com/300x200" class="product-image" alt="Producto 12"> <!-- Imagen -->
-        <h3 class="product-title">Producto 12</h3>
-        <p class="product-price">$129.99</p>
+        <img src="https://jvgamesperu.pe/wp-content/uploads/2022/02/7.jpg" class="product-image" alt="Producto 12"> <!-- Imagen -->
+        <h3 class="product-title"> consola Nintendo Switch,Modelo OLED,64 GB,conexión por cable</h3>
+        <p class="product-price">S/1.599</p>
         <i class="fas fa-shopping-cart add-to-cart"></i> <!-- Ícono de carrito -->
       </div>
     </div>

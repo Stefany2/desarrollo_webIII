@@ -25,6 +25,22 @@ Route::middleware(['auth', 'verified'])->group(function () {
         return view('dashboard');
     })->name('dashboard');
 
+    //RUTA DE PRODUCTOS
+    Route::get('/productos', function () {
+        return view('productos');
+    })->name('productos');
+
+     //RUTA DE ROPAS
+     Route::get('/ropas', function () {
+        return view('ropas');
+    })->name('ropas');
+
+      //RUTA DE OTROS
+      Route::get('/otros', function () {
+        return view('otros');
+    })->name('otros');
+
+
     // Rutas para el carrito de compras y productos
     Route::get('/products', [ProductController::class, 'index'])->name('products.index');
     Route::get('/products/{product}', [ProductController::class, 'show'])->name('products.show');

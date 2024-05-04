@@ -78,9 +78,9 @@
                     </a>
                     <div class="dropdown-menu" aria-labelledby="navbarDropdown">
                         <a class="dropdown-item" href="http://localhost/proyecto/public/productos"><i class="fas fa-laptop"></i> Tecnología</a> <!-- Icono de laptop -->
-                        <a class="dropdown-item" href="#"><i class="fas fa-tshirt"></i> Ropa</a> <!-- Icono de camiseta -->
+                        <a class="dropdown-item" href="http://localhost/proyecto/public/ropas"><i class="fas fa-tshirt"></i> Ropa</a> <!-- Icono de camiseta -->
                         <div class="dropdown-divider"></div>
-                        <a class="dropdown-item" href="#"><i class="fa-ellipsis-h"></i> Otros</a> <!-- Icono de puntos suspensivos -->
+                        <a class="dropdown-item" href="http://localhost/proyecto/public/otros"><i class="fa-ellipsis-h"></i> Otros</a> <!-- Icono de puntos suspensivos -->
                     </div>
                 </li>
                 <!-- Ícono de Salir -->

@@ -74,7 +74,7 @@
 
 <!-- Menú de navegación -->
 <nav class="navbar navbar-expand-lg navbar-dark">
-  <a class="navbar-brand" href="#">PRODUCTOS ROPAS</a>
+  <a class="navbar-brand" href="#">PRODUCTOS BISUTERIA</a>
   <div class="ml-auto"> <!-- Se coloca el icono a la derecha -->
     <a href="http://localhost/proyecto/public/Bienvenido" title="Cerrar sesión"> <!-- Cambiar href por la ruta correcta -->
       <i class="fas fa-sign-out-alt"></i> <!-- Icono de salida -->
@@ -89,9 +89,9 @@
         <!-- Tarjeta de producto -->
         <div class="col-md-4">
             <div class="product-card">
-                <img src="https://cueroperu.com/wp-content/uploads/2023/06/Chaqueta-de-cuero-con-forro-de-piel-para-hombre-abrigo-de-motociclista-ajustado-con-cremallera-y.jpg_Q90.jpg" class="product-image" alt="Producto 1"> <!-- Imagen -->
-                <h3 class="product-title">Casaca de cuero, con bolsillos </h3>
-                <p class="product-price">S/ 194.50</p>
+                <img src="https://img4.dhresource.com/webp/m/0x0/f3/albu/km/j/05/389191d3-00b8-4e0f-8e73-ad82f8fd3939.jpg" class="product-image" alt="Producto 1"> <!-- Imagen -->
+                <h3 class="product-title">Collar Corazon Acero Inoxidable </h3>
+                <p class="product-price">S/30.00</p>
                 <i class="fas fa-shopping-cart add-to-cart"></i> <!-- Ícono de carrito -->
             </div>
         </div>
@@ -99,9 +99,9 @@
         <!-- Producto 2 -->
         <div class="col-md-4">
             <div class="product-card">
-                <img src="https://m.media-amazon.com/images/I/61nUzO6JIxL._AC_UY1000_.jpg" class="product-image" alt="Producto 2"> <!-- Imagen -->
-                <h3 class="product-title">Vestido casual de verano</h3>
-                <p class="product-price">S/ 160.00</p>
+                <img src="https://i.ebayimg.com/images/g/MNsAAOSwoSNkbc5o/s-l1600.jpg" class="product-image" alt="Producto 2"> <!-- Imagen -->
+                <h3 class="product-title">Collar Margarita Flor de Circonio Acero Inoxdable </h3>
+                <p class="product-price">S/69.00</p>
                 <i class="fas fa-shopping-cart add-to-cart"></i> <!-- Ícono de carrito -->
             </div>
         </div>
@@ -109,9 +109,9 @@
         <!-- Producto 3 -->
         <div class="col-md-4">
             <div class="product-card">
-                <img src="https://i5.walmartimages.com.mx/mg/gm/3pp/asr/06795104-a48a-4ce4-8f02-23348bb06857.a70d4cd42f38353566352a03076483ea.jpeg?odnHeight=612&odnWidth=612&odnBg=FFFFFF" class="product-image" alt="Producto 3"> <!-- Imagen -->
-                <h3 class="product-title">vestido largo casual</h3>
-                <p class="product-price">S/ 148.00</p>
+                <img src="https://i.ebayimg.com/images/g/Au4AAOSwMWplzDwD/s-l1600.jpg" class="product-image" alt="Producto 3"> <!-- Imagen -->
+                <h3 class="product-title">Colgante Cruz de Acero Inoxidable hombre</h3>
+                <p class="product-price">S/52.70</p>
                 <i class="fas fa-shopping-cart add-to-cart"></i> <!-- Ícono de carrito -->
             </div>
         </div>
@@ -119,9 +119,9 @@
         <!-- Producto 4 -->
         <div class="col-md-4">
             <div class="product-card">
-                <img src="https://estilo.pe/wp-content/uploads/2021/04/105-Pantalon-Mujer-Jean-Cristal-Juvenil-Perfil.jpg" class="product-image" alt="Producto 4"> <!-- Imagen -->
-                <h3 class="product-title">Pantalon Slouchy jeans rigido </h3>
-                <p class="product-price">s/ 59.90</p>
+                <img src="https://i.ebayimg.com/images/g/bKMAAOSw5uxdBLlH/s-l960.jpg" class="product-image" alt="Producto 4"> <!-- Imagen -->
+                <h3 class="product-title">Punk Plateado Acero Inoxidabel hombre mujer </h3>
+                <p class="product-price">s/10.32</p>
                 <i class="fas fa-shopping-cart add-to-cart"></i> <!-- Ícono de carrito -->
             </div>
         </div>
@@ -129,9 +129,9 @@
         <!-- Producto 5 -->
         <div class="col-md-4">
             <div class="product-card">
-                <img src="https://www.mydandelion.com.mx/wp-content/uploads/2022/11/0-0ca444.jpeg" class="product-image" alt="Producto 5"> <!-- Imagen -->
-                <h3 class= " product-title">Vaqueros Holgados Vintage</h3>
-                <p class="product-price">S/107.00</p>
+                <img src="https://i.ebayimg.com/images/g/QhgAAOSw43llDaA9/s-l1600.jpg" class="product-image" alt="Producto 5"> <!-- Imagen -->
+                <h3 class= " product-title">Colgante Acero Inoxidable Enchapado en Oro </h3>
+                <p class="product-price">S/15.00</p>
                 <i class="fas fa-shopping-cart add-to-cart"></i> <!-- Ícono de carrito -->
             </div>
         </div>
@@ -139,9 +139,9 @@
         <!-- Producto 6 -->
         <div class="col-md-4">
             <div class= " product-card">
-                <img src="https://www.dhresource.com/webp/m/0x0/f2/albu/g8/M00/62/01/rBVaV11l9VKARmvUAAMmm9tTwWs106.jpg" class="product-image" alt="Producto 6"> <!-- Imagen -->
-                <h3 class="product-title">Jogger  Camuflaje</h3>
-                <p class= " product-price">S/69.90</p>
+                <img src="https://i.ebayimg.com/images/g/3i0AAOSwKCJlhX1t/s-l1600.jpg" class="product-image" alt="Producto 6"> <!-- Imagen -->
+                <h3 class="product-title">colgante de mariposa de acero inoxidable</h3>
+                <p class= " product-price">S/20.00</p>
                 <i class= " fas fa-shopping-cart add-to-cart"></i> <!-- Ícono de carrito -->
             </div>
         </div>
@@ -149,9 +149,9 @@
         <!-- Producto 7 -->
         <div class="col-md-4">
             <div class="product-card">
-                <img src="https://img.fruugo.com/product/2/65/542338652_max.jpg" class="product-image" alt="Producto 7"> <!-- Imagen -->
-                <h3 class= "product-title">Pantalon Cargo</h3>
-                <p class= " product-price">S/109.00</p>
+                <img src="https://i.ebayimg.com/images/g/s0QAAOSwq0dmHwiX/s-l960.jpg" class="product-image" alt="Producto 7"> <!-- Imagen -->
+                <h3 class= "product-title">Colgante Cruz Plata Acero Inoxidable</h3>
+                <p class= " product-price">S/18.00</p>
                 <i class= " fas fa-shopping-cart add-to-cart"></i> <!-- Ícono de carrito -->
             </div>
         </div>
@@ -159,9 +159,9 @@
         <!-- Producto 8 -->
         <div class= " col-md-4">
             <div class="product-card">
-                <img src="https://www.digitalsport.com.ar/files/products/5cedd7c9dc3e7-489744-500x500.jpg" class="product-image" alt="Producto 8"> <!-- Imagen -->
-                <h3 class= " product-title">Pantalon Jeans</h3>
-                <p class= " product-price">S/127.92</p>
+                <img src="https://i.ebayimg.com/images/g/cvwAAOSwr7hhOW8p/s-l960.jpg" class="product-image" alt="Producto 8"> <!-- Imagen -->
+                <h3 class= " product-title">Mujer Enchapado en Oro 18K Acero Inoxidable Flor Margarita</h3>
+                <p class= " product-price">S/33.48</p>
                 <i class= " fas fa-shopping-cart add-to-cart"></i> <!-- Ícono de carrito -->
             </div>
         </div>
@@ -169,9 +169,9 @@
         <!-- Producto 9 -->
         <div class= " col-md-4">
             <div class="product-card">
-                <img src="https://falabella.scene7.com/is/image/FalabellaPE/gsc_123780006_3738135_1?wid=1500&hei=1500&qlt=70" class="product-image" alt="Producto 9"> <!-- Imagen -->
-                <h3 class= " product-title">Polo Oversize Roman tee</h3>
-                <p class= " product-price">S/99.00</p>
+                <img src="https://i.ebayimg.com/images/g/U6cAAOSwpMZlUIaG/s-l960.jpg" class="product-image" alt="Producto 9"> <!-- Imagen -->
+                <h3 class= " product-title">Aretes Argollas en Oro 14K Colgantes</h3>
+                <p class= " product-price">S/30.00</p>
                 <i class= " fas fa-shopping-cart add-to-cart"></i> <!-- Ícono de carrito -->
             </div>
         </div>
@@ -179,9 +179,9 @@
         <!-- Producto 10 -->
         <div class= " col-md-4">
             <div class="product-card">
-                <img src="https://rematexperu.com/cdn/shop/files/130_533x.png?v=1695931364" class="product-image" alt="Producto 10"> <!-- Imagen -->
-                <h3 class= " product-title">Polos de algodon</h3>
-                <p class= " product-price">S/35.00</p>
+                <img src="https://i.ebayimg.com/images/g/eOYAAOSwPMpfxmnv/s-l960.jpg" class="product-image" alt="Producto 10"> <!-- Imagen -->
+                <h3 class= " product-title">Acero Inoxidable Pendientes de aro Tachuelas </h3>
+                <p class= " product-price">S/8.10</p>
                 <i class= " fas fa-shopping-cart add-to-cart"></i> <!-- Ícono de carrito -->
             </div>
         </div>
@@ -189,9 +189,9 @@
         <!-- Producto 11 -->
         <div class= " col-md-4">
             <div class= "product-card">
-                <img src="https://falabella.scene7.com/is/image/FalabellaPE/gsc_120296861_2633141_1?wid=800&hei=800&qlt=70" class="product-image" alt="Producto 11"> <!-- Imagen -->
-                <h3 class= "product-title">Polo Yansus Tricolor</h3>
-                <p class=" product-price">S/30.90</p>
+                <img src="https://i.ebayimg.com/images/g/6dYAAOSwwgRgkXO~/s-l960.jpg" class="product-image" alt="Producto 11"> <!-- Imagen -->
+                <h3 class= "product-title">Punk de acero inoxidable para hombres</h3>
+                <p class=" product-price">S/7.00</p>
                 <i class= "fas fa-shopping-cart add-to-cart"></i> <!-- Ícono de carrito -->
             </div>
         </div>
@@ -199,9 +199,9 @@
         <!-- Producto 12 -->
         <div class= "col-md-4">
             <div class= " product-card">
-                <img src="https://www.lacasadelandamiero.com/wp-content/uploads/2022/11/Polos-de-obra-polos-de-trabajo-industrial-manga-larga-de-colores.jpg" class="product-image" alt="Producto 12"> <!-- Imagen -->
-                <h3 class= "product-title">Polos Manga Larga</h3>
-                <p class= "product-price">S/17.90</p>
+                <img src="https://i.ebayimg.com/images/g/iDEAAOSwKP1hr1Yk/s-l960.jpg" class="product-image" alt="Producto 12"> <!-- Imagen -->
+                <h3 class= "product-title">Circón Mariposa Oreja Clip Sin Perforación </h3>
+                <p class= "product-price">S/10.40</p>
                 <i class= " fas fa-shopping-cart add-to-cart"></i> <!-- Ícono de carrito -->
             </div>
         </div>
