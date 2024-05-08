@@ -45,6 +45,16 @@ Route::middleware(['auth', 'verified'])->group(function () {
         return view('carrito');
     })->name('carrito');
 
+     //RUTA DE CARRITOS
+     Route::get('/carrito1', function () {
+        return view('carrito1');
+    })->name('carrito1');
+
+     //RUTA DE PAGAR
+     Route::get('/pagar', function () {
+        return view('pagar');
+    })->name('pagar');
+
     // Rutas para el carrito de compras y productos
     Route::get('/products', [ProductController::class, 'index'])->name('products.index');
     Route::get('/products/{product}', [ProductController::class, 'show'])->name('products.show');

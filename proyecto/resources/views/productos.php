@@ -73,6 +73,9 @@
             padding: 2px 6px;
             font-size: 0.8em;
         }
+        .cart-icon {
+  margin-right: 15px; /* Ajusta la distancia entre los iconos */
+}
     </style>
 </head>
 <body>
@@ -80,7 +83,7 @@
 <nav class="navbar navbar-expand-lg navbar-dark">
   <a class="navbar-brand" href="#">PRODUCTOS TECNOLOGICOS</a>
   <div class="ml-auto"> <!-- Ícono del carrito y de cerrar sesión -->
-    <a href="http://localhost/proyecto/public/carrito" class="cart-icon">
+    <a href="http://localhost/proyecto/public/carrito" class="cart-icon"> <!-- El estilo viene de la clase -->
       <i class="fas fa-shopping-cart"></i>
       <span class="cart-counter">0</span> <!-- Contador del carrito -->
     </a>
@@ -89,6 +92,7 @@
     </a>
   </div>
 </nav>
+
 
 <!-- Contenedor para productos -->
 <div class="container mt-4">
