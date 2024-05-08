@@ -85,7 +85,7 @@
                         <div class="card-body">
                             <h5 class="card-title">samsung galaxy A50</h5>
                             <p class="card-text">Sistema operativo. Android 9.0.Tecnología celular. 2G.Capacidad de almacenamiento de memoria. 64 GB.</p>
-                            <a href="#" class="btn btn-primary">Comprar Ahora</a>
+                           
                         </div>
                     </div>
                 </div>
@@ -95,7 +95,7 @@
                         <div class="card-body">
                             <h5 class="card-title">Casaca de cuero mujer</h5>
                             <p class="card-text">símbolo de rebelión.Hidrata las prendas de piel.Utiliza productos que protejan la fibra de tu abrigo. </p>
-                            <a href="#" class="btn btn-primary">Comprar Ahora</a>
+                            
                         </div>
                     </div>
                 </div>
@@ -105,7 +105,7 @@
                         <div class="card-body">
                             <h5 class="card-title">Latop HP I7</h5>
                             <p class="card-text">15,6 de pantalla.12Gb de RAM.SSD 512 GB. 10 NUCLEOS. 12 generación</p>
-                            <a href="#" class="btn btn-primary">Comprar Ahora</a>
+                            
                         </div>
                     </div>
                 </div>
@@ -117,7 +117,7 @@
     <section class="cta">
         <h2>¡Aprovecha Nuestras Ofertas Especiales!</h2>
         <p>No te pierdas nuestros descuentos exclusivos. ¡Compra ahora!</p>
-        <a href="http://tienda1.test/" class="btn btn-dark">REGRESAR MENU</a>
+        <a href="http://localhost/proyecto/public/Bienvenido" class="btn btn-dark">REGRESAR MENU</a>
     </section>
 
     <!-- Bootstrap JS y dependencias -->

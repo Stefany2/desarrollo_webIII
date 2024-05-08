@@ -62,7 +62,7 @@
         <div class="carousel-item active"> <!-- Primera imagen -->
             <img src="https://media.gq.com.mx/photos/6005e4e9136a880326643701/16:9/w_2560%2Cc_limit/chaquetas%2520de%2520cuero-1212854786.jpg" class="d-block w-100" alt="Imagen 1">
             <div class="carousel-caption d-none d-md-block">
-                <h3>BIENVENIDO A VIRTUAL SHOP/h3>
+                <h3>BIENVENIDO A VIRTUAL SHOP</h3>
                 <p>Descubre nuestros productos destacados.</p>
             </div>
         </div>

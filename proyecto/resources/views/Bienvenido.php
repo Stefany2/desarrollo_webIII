@@ -108,7 +108,7 @@
             <div class="carousel-item">
                 <img class="d-block w-100" src="https://www.ocu.org/-/media/ocu/images/home/tecnologia/satisfaccion-fiabilidad-hitech-jun19/fiabilidad-satisfaccion-tecnologia.png?rev=5881ff83-c6d2-476c-8e47-3649765eb390&hash=E426F47B135A3C2AB84AECAA7AF8104D" alt="Segunda Diapositiva">
             </div>
-            <div classcarousel-item">
+            <div class= "carousel-item">
                 <img class="d-block w-100" src="https://media.gq.com.mx/photos/627bbaf2053326c8d35ba67c/4:3/w_2684,h_2013,c_limit/vestir%20bien.jpg" alt="Tercera Diapositiva">
             </div>
         </div>

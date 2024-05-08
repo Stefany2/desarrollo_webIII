@@ -39,7 +39,11 @@ Route::middleware(['auth', 'verified'])->group(function () {
       Route::get('/otros', function () {
         return view('otros');
     })->name('otros');
-
+     
+    //RUTA DE CARRITOS
+    Route::get('/carrito', function () {
+        return view('carrito');
+    })->name('carrito');
 
     // Rutas para el carrito de compras y productos
     Route::get('/products', [ProductController::class, 'index'])->name('products.index');
