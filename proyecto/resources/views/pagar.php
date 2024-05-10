@@ -5,25 +5,34 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Formulario de Pago</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+
     <style>
         body {
-            background-color: #f8f9fa;
+            background-image: url('https://wallpapers.com/images/hd/pretty-black-qe0065n8fmbmz72q.jpg'); /* URL de la imagen de fondo */
+            background-size: cover; /* Asegura que la imagen cubra todo el cuerpo */
+            background-position: center; /* Centra la imagen */
         }
 
         .payment-card {
             max-width: 500px;
             margin: 30px auto;
             border-radius: 10px;
-            box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.2);
-            background: white;
+            box-shadow: 0px 0px 15px rgba(0, 0, 255, 0.3); /* Azul con cierta transparencia */
+            background:rgba(0, 0, 0, 0); /* Transparente */
+            background-image: url('https://media1.tenor.com/m/r5a_QxNpB6UAAAAC/gracias-thanks.gif'); /* Imagen de fondo para la tarjeta */
+            background-size: cover; /* Cubre todo el espacio de la tarjeta */
+            background-position: center; /* Centra la imagen en la tarjeta */
         }
 
         .payment-header {
+            display: flex; /* Flexbox para alinear el texto y el ícono */
+            justify-content: space-between; /* Distribuir espacio para que el ícono esté al final */
+            align-items: center; /* Alinear ícono verticalmente con el texto */
             background: linear-gradient(90deg, rgba(0, 123, 255, 1), rgba(0, 105, 218, 1));
             color: white;
             padding: 15px;
             border-radius: 10px 10px 0 0;
-            text-align: center;
         }
 
         .form-control {
@@ -39,13 +48,16 @@
         .btn-primary:hover {
             background-color: #0056b3;
         }
+        .close-icon {
+            font-size: 24px; /* Tamaño grande para mayor visibilidad */
+            cursor: pointer; /* Cursión tipo mano */
+            color: red; /* Color rojo para destacar */
+        }
 
         .card-body {
             padding: 20px;
-        }
-
-        .form-group {
-            margin-bottom: 15px;
+            background: rgba(255, 255, 255, 0.8); /* Un ligero fondo blanco para el texto */
+            border-radius: 10px; /* Redondea las esquinas */
         }
     </style>
 </head>
@@ -53,7 +65,9 @@
     <div class="container">
         <div class="payment-card">
             <div class="payment-header">
-                <h4>Formulario de Pago</h4>
+                <h4>FORMULARIO DE PAGO</h4>
+                <i class="fas fa-times close-icon" onclick="window.location.href = 'http://localhost/proyecto/public/productos';"></i>
+
             </div>
             <div class="card-body">
                 <form id="payment-form">
@@ -102,20 +116,26 @@
 
             // Crear un nuevo PDF
             const pdf = new jsPDF();
+            
 
             // Añadir texto a PDF
             pdf.setFontSize(18);
-            pdf.text("Boleta de Compra", 20, 20);
+            pdf.text("BOLETA DE COMPRA", 105, 20, { align: 'center' }); // Centrar texto
 
-            pdf.setFontSize(12);
+            pdf.setFontSize(14);
             pdf.text(`Nombre: ${nombre}`, 20, 40);
             pdf.text(`Número de Tarjeta: ${numero}`, 20, 60);
             pdf.text(`Fecha de Expiración: ${expiracion}`, 20, 80);
             pdf.text(`CVV: ${cvv}`, 20, 100);
             pdf.text(`Monto a Pagar: ${monto}`, 20, 120);
 
+             // Añadir un pie de página
+    pdf.setFontSize(10); // Tamaño de fuente para el pie
+    pdf.text("Gracias por su compra.", 105, 270, { align: 'center' }); // Centrar texto en el pie
+     
+
             // Descarga el PDF
-            pdf.save("boleta_compra.pdf");
+            pdf.save("Recibo_compra.pdf");
         });
     </script>
 </body>

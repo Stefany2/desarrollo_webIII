@@ -74,10 +74,14 @@
 
 <!-- Menú de navegación -->
 <nav class="navbar navbar-expand-lg navbar-dark">
-  <a class="navbar-brand" href="#">PRODUCTOS BISUTERIA</a>
-  <div class="ml-auto"> <!-- Se coloca el icono a la derecha -->
-    <a href="http://localhost/proyecto/public/Bienvenido" title="Cerrar sesión"> <!-- Cambiar href por la ruta correcta -->
-      <i class="fas fa-sign-out-alt"></i> <!-- Icono de salida -->
+  <a class="navbar-brand" href="#">OTROS</a>
+  <div class="ml-auto"> <!-- Ícono del carrito y de cerrar sesión -->
+    <a href="http://localhost/proyecto/public/carrito2" class="cart-icon"> <!-- El estilo viene de la clase -->
+      <i class="fas fa-shopping-cart"></i>
+      <span class="cart-counter">0</span> <!-- Contador del carrito -->
+    </a>
+    <a href="http://localhost/proyecto/public/Bienvenido" title="Cerrar sesión">
+      <i class="fas fa-sign-out-alt"></i>
     </a>
   </div>
 </nav>
@@ -88,7 +92,7 @@
         <!-- Productos -->
         <!-- Tarjeta de producto -->
         <div class="col-md-4">
-            <div class="product-card">
+            <div class="product-card" data-id="1" data-title="Collar Corazon Acero Inoxidable" data-price="30.00">
                 <img src="https://img4.dhresource.com/webp/m/0x0/f3/albu/km/j/05/389191d3-00b8-4e0f-8e73-ad82f8fd3939.jpg" class="product-image" alt="Producto 1"> <!-- Imagen -->
                 <h3 class="product-title">Collar Corazon Acero Inoxidable </h3>
                 <p class="product-price">S/30.00</p>
@@ -98,7 +102,7 @@
         
         <!-- Producto 2 -->
         <div class="col-md-4">
-            <div class="product-card">
+            <div class="product-card" data-id="2" data-title="Collar Margarita Flor de Circonio" data-price="69.00">
                 <img src="https://i.ebayimg.com/images/g/MNsAAOSwoSNkbc5o/s-l1600.jpg" class="product-image" alt="Producto 2"> <!-- Imagen -->
                 <h3 class="product-title">Collar Margarita Flor de Circonio Acero Inoxdable </h3>
                 <p class="product-price">S/69.00</p>
@@ -108,7 +112,7 @@
 
         <!-- Producto 3 -->
         <div class="col-md-4">
-            <div class="product-card">
+            <div class="product-card" data-id="3" data-title="Colgante Cruz de Acero" data-price="52.70">
                 <img src="https://i.ebayimg.com/images/g/Au4AAOSwMWplzDwD/s-l1600.jpg" class="product-image" alt="Producto 3"> <!-- Imagen -->
                 <h3 class="product-title">Colgante Cruz de Acero Inoxidable hombre</h3>
                 <p class="product-price">S/52.70</p>
@@ -118,7 +122,7 @@
 
         <!-- Producto 4 -->
         <div class="col-md-4">
-            <div class="product-card">
+            <div class="product-card" data-id="4" data-title="Punk Plateado Acero Inoxidabel" data-price="10.32">
                 <img src="https://i.ebayimg.com/images/g/bKMAAOSw5uxdBLlH/s-l960.jpg" class="product-image" alt="Producto 4"> <!-- Imagen -->
                 <h3 class="product-title">Punk Plateado Acero Inoxidabel hombre mujer </h3>
                 <p class="product-price">s/10.32</p>
@@ -128,7 +132,7 @@
 
         <!-- Producto 5 -->
         <div class="col-md-4">
-            <div class="product-card">
+            <div class="product-card" data-id="5" data-title="Colgante Acero Inoxidable" data-price="15.00">
                 <img src="https://i.ebayimg.com/images/g/QhgAAOSw43llDaA9/s-l1600.jpg" class="product-image" alt="Producto 5"> <!-- Imagen -->
                 <h3 class= " product-title">Colgante Acero Inoxidable Enchapado en Oro </h3>
                 <p class="product-price">S/15.00</p>
@@ -138,7 +142,7 @@
 
         <!-- Producto 6 -->
         <div class="col-md-4">
-            <div class= " product-card">
+            <div class= " product-card" data-id="6" data-title="colgante de mariposa de acero" data-price="20.00">
                 <img src="https://i.ebayimg.com/images/g/3i0AAOSwKCJlhX1t/s-l1600.jpg" class="product-image" alt="Producto 6"> <!-- Imagen -->
                 <h3 class="product-title">colgante de mariposa de acero inoxidable</h3>
                 <p class= " product-price">S/20.00</p>
@@ -148,7 +152,7 @@
 
         <!-- Producto 7 -->
         <div class="col-md-4">
-            <div class="product-card">
+            <div class="product-card"data-id="7" data-title="Colgante Cruz Plata Acero" data-price="18.00">
                 <img src="https://i.ebayimg.com/images/g/s0QAAOSwq0dmHwiX/s-l960.jpg" class="product-image" alt="Producto 7"> <!-- Imagen -->
                 <h3 class= "product-title">Colgante Cruz Plata Acero Inoxidable</h3>
                 <p class= " product-price">S/18.00</p>
@@ -158,7 +162,7 @@
 
         <!-- Producto 8 -->
         <div class= " col-md-4">
-            <div class="product-card">
+            <div class="product-card" data-id="8" data-title="Mujer Enchapado en Oro 18K Acero " data-price="33.48">
                 <img src="https://i.ebayimg.com/images/g/cvwAAOSwr7hhOW8p/s-l960.jpg" class="product-image" alt="Producto 8"> <!-- Imagen -->
                 <h3 class= " product-title">Mujer Enchapado en Oro 18K Acero Inoxidable Flor Margarita</h3>
                 <p class= " product-price">S/33.48</p>
@@ -168,7 +172,7 @@
 
         <!-- Producto 9 -->
         <div class= " col-md-4">
-            <div class="product-card">
+            <div class="product-card" data-id="9" data-title="Aretes Argollas en Oro " data-price="30.00">
                 <img src="https://i.ebayimg.com/images/g/U6cAAOSwpMZlUIaG/s-l960.jpg" class="product-image" alt="Producto 9"> <!-- Imagen -->
                 <h3 class= " product-title">Aretes Argollas en Oro 14K Colgantes</h3>
                 <p class= " product-price">S/30.00</p>
@@ -178,7 +182,7 @@
 
         <!-- Producto 10 -->
         <div class= " col-md-4">
-            <div class="product-card">
+            <div class="product-card" data-id="10" data-title="Acero Inoxidable Pendientes" data-price="8.10">
                 <img src="https://i.ebayimg.com/images/g/eOYAAOSwPMpfxmnv/s-l960.jpg" class="product-image" alt="Producto 10"> <!-- Imagen -->
                 <h3 class= " product-title">Acero Inoxidable Pendientes de aro Tachuelas </h3>
                 <p class= " product-price">S/8.10</p>
@@ -188,7 +192,7 @@
 
         <!-- Producto 11 -->
         <div class= " col-md-4">
-            <div class= "product-card">
+            <div class= "product-card" data-id="11" data-title="Punk de acero inoxidable" data-price="7.00">
                 <img src="https://i.ebayimg.com/images/g/6dYAAOSwwgRgkXO~/s-l960.jpg" class="product-image" alt="Producto 11"> <!-- Imagen -->
                 <h3 class= "product-title">Punk de acero inoxidable para hombres</h3>
                 <p class=" product-price">S/7.00</p>
@@ -198,7 +202,7 @@
 
         <!-- Producto 12 -->
         <div class= "col-md-4">
-            <div class= " product-card">
+            <div class= " product-card" data-id="12" data-title="Circón Mariposa Oreja" data-price="10.40">
                 <img src="https://i.ebayimg.com/images/g/iDEAAOSwKP1hr1Yk/s-l960.jpg" class="product-image" alt="Producto 12"> <!-- Imagen -->
                 <h3 class= "product-title">Circón Mariposa Oreja Clip Sin Perforación </h3>
                 <p class= "product-price">S/10.40</p>
@@ -207,8 +211,54 @@
         </div>
     </div>
 </div>
+<!-- Código JavaScript para manejar eventos y carrito -->
+<script>
+document.addEventListener("DOMContentLoaded", function () {
+    const cartIconElements = document.querySelectorAll(".add-to-cart"); // Íconos de carrito
+    const cartCounter = document.querySelector(".cart-counter"); // Contador del carrito
 
-<!-- Bootstrap JS y dependencias -->
+    function getCart() {
+        return JSON.parse(localStorage.getItem("cart")) || [];
+    }
+
+    function updateCartCount() {
+        const cart = getCart();
+        const totalItems = cart.reduce((sum, item) => sum + item.quantity, 0);
+        cartCounter.textContent = totalItems;
+    }
+
+    function addProductToCart(product) {
+        const cart = getCart();
+        const existingProduct = cart.find(p => p.id === product.id);
+
+        if (existingProduct) {
+            existingProduct.quantity += 1; // Incrementar cantidad
+        } else {
+            cart.push({ id: product.id, title: product.title, price: product.price, quantity: 1 });
+        }
+
+        localStorage.setItem("cart", JSON.stringify(cart)); // Guardar el carrito
+        updateCartCount(); // Actualizar contador
+    }
+
+    cartIconElements.forEach(icon => {
+        icon.addEventListener("click", function () {
+            const productCard = this.closest(".product-card");
+            const product = {
+                id: productCard.getAttribute("data-id"),
+                title: productCard.getAttribute("data-title"),
+                price: parseFloat(productCard.getAttribute("data-price")),
+            };
+            addProductToCart(product); // Agregar al carrito
+        });
+    });
+
+    updateCartCount(); // Actualizar contador al cargar la página
+});
+
+</script>
+
+<!-- Dependencias de Bootstrap -->
 <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.2/dist/umd/popper.min.js"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>

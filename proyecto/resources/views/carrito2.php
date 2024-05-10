@@ -84,7 +84,7 @@
 
     <!-- Botones para acciones -->
     <div class="action-buttons">
-        <a href="http://localhost/proyecto/public/productos" class="add-products-button">Añadir Productos</a>
+        <a href="http://localhost/proyecto/public/otros" class="add-products-button">Añadir Productos</a>
         <a href="http://localhost/proyecto/public/pagar" class="pay-button">Pagar</a>
     </div>
 
